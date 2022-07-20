@@ -1,13 +1,9 @@
-@import '_variables.styl'
+@require '_variables.styl'
+@require '_reset.styl'
 
-*
-  box-sizing: border-box
+.container
+  min-height: 100vh
+  display: grid
+  place-items: center
 
-
-body 
-  background-color: main-color
-  color: #fff
-h1, p
-  margin: 0
-  padding: 0
-
+@require 'card.styl'
