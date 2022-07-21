@@ -36,6 +36,7 @@ img {
 .card__footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .card__author {
   display: flex;
@@ -46,6 +47,16 @@ img {
   aspect-ratio: 1;
   width: 60px;
   border-radius: 100px;
+}
+.btn--share {
+  border: none;
+  padding: 0;
+  aspect-ratio: 1;
+  width: 45px;
+  border-radius: 100%;
+}
+.btn__img {
+  width: 40%;
 }
 .contacts {
   display: none;
