@@ -29,11 +29,20 @@ img {
 }
 .card__content {
   padding: 3em;
+  display: grid;
+  gap: 1.5em;
+}
+.card__content h1 {
+  line-height: 1.4;
+}
+.card__content p {
+  line-height: 1.8;
 }
 .card__img {
   width: 100%;
 }
 .card__footer {
+  margin-block-start: 1.5em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,11 +57,18 @@ img {
   width: 60px;
   border-radius: 100px;
 }
+.user__info {
+  font-size: 0.8rem;
+}
+.user p {
+  font-size: 1.3em;
+  color: #9eafc2;
+}
 .btn--share {
   border: none;
   padding: 0;
   aspect-ratio: 1;
-  width: 45px;
+  width: 48px;
   border-radius: 100%;
 }
 .btn__img {
