@@ -6,6 +6,9 @@
   
   <title>Article preview component</title>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="public/main.css">
   <script defer src="main.js"></script>
 </head>
@@ -13,8 +16,8 @@
   <main class="container">
     <article class="card">
   
-      <figure class="card__img">
-        <img src="./images/drawers.jpg" alt="">
+      <figure class="card__header">
+        <img class="card__img" src="./images/drawers.jpg" alt="">
       </figure>
   
       <div class="card__content">
@@ -29,11 +32,13 @@
           to help you make any room feel complete.
         </p>
   
-        <footer class="card__user">
+        <footer class="card__footer">
           <div class="card__author">
-            <img src="./images/avatar-michelle.jpg" alt="Michelle Appleton">
-            <h2>Michelle Appleton</h2>
-            <p>28 Jun 2020</p>
+            <img class="card__avatar" src="./images/avatar-michelle.jpg" alt="Michelle Appleton">
+            <div class="user__info">
+              <h2>Michelle Appleton</h2>
+              <p>28 Jun 2020</p>
+            </div>
           </div>
           <button id="btn__share" type="button">=></button>
           <div class="contacts">

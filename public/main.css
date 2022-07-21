@@ -4,13 +4,17 @@
 body {
   background-color: #ecf2f8;
   color: #48556a;
-  font-size: 13px;
+  font-family: 'Manrope', sans-serif;
 }
 h1,
 h2,
-p {
+p,
+figure {
   margin: 0;
   padding: 0;
+}
+img {
+  max-width: 100%;
 }
 .container {
   min-height: 100vh;
@@ -18,5 +22,31 @@ p {
   place-items: center;
 }
 .card {
-  background-color: #6d7f97;
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  max-width: 500px;
+}
+.card__content {
+  padding: 3em;
+}
+.card__img {
+  width: 100%;
+}
+.card__footer {
+  display: flex;
+  justify-content: space-between;
+}
+.card__author {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.card__avatar {
+  aspect-ratio: 1;
+  width: 60px;
+  border-radius: 100px;
+}
+.contacts {
+  display: none;
 }
