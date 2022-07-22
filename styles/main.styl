@@ -1,6 +1,9 @@
 @require '_variables'
 @require '_reset'
 
+shadow()
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.08);
+
 .container
   min-height: 100vh
   display: grid
@@ -13,6 +16,10 @@
   
 @media (min-width: 800px)
   @require 'card-desktop'
+  @require 'contacts-desktop'
+  
+  .btn__share--active
+    display: none
 
 // Utilies
 .hidden

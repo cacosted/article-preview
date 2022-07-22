@@ -1,0 +1,21 @@
+border(color)
+  18px solid color
+.contacts
+  inset-inline-start: inherit
+  inset-inline-end: -10%
+  inset-block-end: 35%
+  padding: 1.5rem;
+  width: 35%;
+  border-radius: 15px;  
+  shadow()
+  
+  &::after
+    position: absolute
+    inset-block-end: -22%
+    content: ''  
+    width: 0; 
+    height: 0; 
+    border-left: border(transparent);
+    border-right: border(transparent);
+    
+    border-top: border(main-dark);
