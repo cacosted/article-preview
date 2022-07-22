@@ -11,11 +11,8 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -32,8 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Demo](https://your-live-site-url.com)
 
 ## My process
 
@@ -44,41 +40,28 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- Stylus
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This was my first time installing stylus on a project, I learn how to use it and how to set it up with the `package.json`
 
-To see how you can add code snippets, see below:
+Here is how I set up a command to compile and watch the stylus files:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+"scripts": {
+    "watch": "stylus -w styles/main.styl -o public/main.css"
 }
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
 ### Useful resources
 
 - [Stylus docs](https://stylus-docs.netlify.app/) - The official documentation of stylus, this helped me to know how to install the stylus package, and how to use it to compile from `.styl` to `.css`.
 
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [MDN](https://developer.mozilla.org/en-US/) - This is an amazing resource to check the documentation about HTML, CSS, and JavaScript, this helped to confirm the structure of the `toggle()`property of `classList`
+
+- [Kevin Powell](https://www.youtube.com/watch?v=6yAAV-uP0po) - This channel is great to learn how works CSS in a easy way, this video really helped understand how `object-fit` works and how to use it properly.
+
 
 ## Author
 
