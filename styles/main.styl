@@ -1,14 +1,17 @@
-@require '_variables.styl'
-@require '_reset.styl'
+@require '_variables'
+@require '_reset'
 
 .container
   min-height: 100vh
   display: grid
   place-items: center
 
-@require 'card.styl'
-@require 'user.styl'
-@require 'btn.styl'
-  
+@require 'card'
+@require 'user'
+@require 'btn'
+
 .contacts
   display: none
+
+@media (min-width: 800px)
+  @require 'card-desktop'
