@@ -25,11 +25,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Demo Screenshot](https://user-images.githubusercontent.com/57645180/180449408-db883d55-a39b-4752-a277-e368f5bdc9a3.png)
 
 ### Links
 
-- Live Site URL: [Live Demo](https://your-live-site-url.com)
+- Live Site URL: [Live Demo](https://cacosted.github.io/article-preview/)
 
 ## My process
 
